@@ -1,0 +1,221 @@
+.main-verif {
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #fba605 #e4e6fc #e4e6fc #e4e6fc;
+}
+
+.info {
+    text-align: justify;
+}
+
+.s-info {
+    background-color: #004181;
+    color: white;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 15px 0 0 15px;
+}
+
+.m-desc {
+    backdrop-filter: blur(25px);
+    font-size: 14px;
+    font-style: italic;
+    border: solid 1px white;
+    border-radius: 0 15px 15px 0;
+}
+
+.p-main-title,
+.p-sub-title {
+    background-color: #004181;
+    border: solid 2px #004181;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.p-main-title {
+    border-radius: 15px 15px 0 0;
+}
+
+.p-sub-title {
+    border-radius: 15px;
+}
+
+.p-main {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    font-size: 14px;
+}
+
+.i-not {
+    font-size: 25px;
+}
+
+/* .grayscale {
+    filter: grayscale(100%);
+} */
+
+.list-berkas {
+    max-height: 500px;
+    overflow-y: scroll;
+}
+
+.list-berkas::-webkit-scrollbar {
+    display: none;
+}
+
+.p-sub,
+.p-sub a {
+    color: black !important;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 14px;
+    text-align: start;
+}
+
+.p-sub a:hover {
+    color: #004181 !important;
+    text-decoration: none;
+}
+
+.p-det {
+    font-size: 12px;
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* dashboard */
+    .p-alert {
+        font-size: 12px !important;
+    }
+
+    .c-main {
+        display: block !important;
+    }
+
+    .c-summary,
+    .c-submain {
+        max-width: 100% !important;
+    }
+
+    .c-submain {
+        padding-left: 0px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .list-berkas {
+        max-height: 420px;
+        overflow-y: scroll;
+        margin-bottom: 10px !important;
+    }
+
+    .b-first {
+        max-width: 20% !important;
+    }
+
+    .b-sec {
+        max-width: 80% !important;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+    /* dashborad */
+    .w-alert {
+        margin-top: 15px !important;
+    }
+
+    .info {
+        margin-bottom: 15px !important;
+    }
+
+    .s-info {
+        text-align: center !important;
+        font-size: 14px;
+        margin: 0px !important;
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        border-radius: 8px 0px 0px 8px;
+    }
+
+    .m-desc {
+        font-size: 12px;
+        margin: 0px !important;
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        border-radius: 0px 8px 8px 0px;
+    }
+
+    .c-main {
+        display: block !important;
+    }
+
+    .c-submain {
+        padding-left: 0px !important;
+    }
+
+    .p-main-title {
+        font-size: 16px !important;
+        border-radius: 8px 8px 0px 0px;
+    }
+
+    .p-main,
+    .p-not,
+    .p-det,
+    .i-det {
+        font-size: 12px !important;
+    }
+
+    .p-sub-title {
+        font-size: 16px !important;
+        border-radius: 8px;
+    }
+
+    .p-sub {
+        padding-top: 6px !important;
+        padding-bottom: 6px !important;
+        border-radius: 8px;
+    }
+
+    .i-not {
+        font-size: 12px !important;
+    }
+
+    .img-b {
+        width: 50px !important;
+        height: 30px !important;
+    }
+
+    .t-berkas {
+        margin: 0px !important;
+        padding: 0px !important;
+        font-size: 12px !important;
+    }
+
+    .d-berkas {
+        margin: 0px !important;
+        padding-top: 1px !important;
+        padding-bottom: 1px !important;
+    }
+
+    .b-first {
+        margin-top: -7px !important;
+        max-width: 60px !important;
+    }
+
+    .b-sec {
+        width: 1000px !important;
+        max-width: 1200px !important;
+    }
+
+    .list-berkas {
+        max-height: 200px;
+        overflow-y: scroll;
+        margin-bottom: 10px !important;
+    }
+
+    .p-alert {
+        font-size: 10px;
+    }
+}

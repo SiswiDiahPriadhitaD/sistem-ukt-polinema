@@ -1,0 +1,540 @@
+.p-main-title {
+    background-color: #004181;
+    border: solid 2px #004181;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border-radius: 15px 15px 0 0;
+}
+
+.p-login {
+    display: none;
+}
+
+.p-t {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.p-ujian {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.p-ujian-n {
+    background-color: white;
+    border-radius: 15px;
+    height: 380px;
+}
+
+.p-ujian-b {
+    position: sticky;
+    bottom: 0;
+}
+
+.soal-n {
+    flex: 1;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.p-main {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+}
+
+.p-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+label {
+    font-size: 14px;
+}
+
+.f-icon {
+    color: #004181;
+    border: 1px solid;
+    border-color: #e4e6fc;
+    background-color: #fdfdff;
+    border-radius: 15px 0 0 15px;
+    background-color: #fdfdff;
+    padding: 12px 10px;
+}
+
+.form-login {
+    border-radius: 0 20px 20px 0 !important;
+}
+
+.form-login:focus {
+    border-color: #e4e6fc !important;
+}
+
+.form-control {
+    background-color: #fdfdff;
+    border-color: #e4e6fc;
+    border-radius: 20px;
+}
+
+.form-control:focus {
+    background-color: #fefeff;
+    border-color: #95a0f4;
+    box-shadow: none;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+input[type="password"],
+select {
+    font-size: 14px !important;
+    height: 42px;
+}
+
+.feed {
+    font-size: 12px !important;
+}
+
+.form-control.is-invalid {
+    border-color: #95a0f4;
+}
+
+.form-control.is-invalid:focus {
+    border-color: #95a0f4;
+    box-shadow: none;
+}
+
+.btn-success:hover {
+    box-shadow: none !important;
+}
+
+.btn-secondary,
+.btn-secondary:active {
+    background-color: #cdd3d8;
+    border-color: #cdd3d8;
+    box-shadow: none !important;
+}
+
+.btn-secondary:hover {
+    background-color: #c2c6ca;
+    box-shadow: none !important;
+    border-color: #c2c6ca;
+}
+
+.btn-secondary:disabled {
+    background-color: #cdd3d8;
+    border-color: #cdd3d8;
+    box-shadow: none !important;
+}
+
+.btn-save {
+    color: white;
+    background-color: #004181 !important;
+    border-radius: 15px;
+    box-shadow: none !important;
+}
+
+.btn-save:active {
+    color: white;
+    box-shadow: none !important;
+    background-color: #004181;
+}
+
+.btn-save:hover {
+    color: white;
+    background-color: #1469bd !important;
+}
+
+.btn-alert {
+    color: white;
+    background-color: #3eac57 !important;
+    box-shadow: none !important;
+}
+
+.btn-alert:active {
+    color: white;
+    background-color: #3eac57 !important;
+    box-shadow: none !important;
+}
+
+.btn-wrong {
+    color: white;
+    background-color: #dc3545 !important;
+    box-shadow: none !important;
+}
+
+.btn-wrong:active {
+    color: white;
+    background-color: #dc3545 !important;
+    box-shadow: none !important;
+}
+
+.btn-wrong:hover {
+    color: white;
+    background-color: #d12839 !important;
+    box-shadow: none !important;
+}
+
+.card {
+    border-radius: 20px;
+    border-width: 5px 1px 1px 1px;
+    border-style: solid;
+    border-color: #fba605 #e4e6fc #e4e6fc #e4e6fc;
+}
+
+.text-pre {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.s-pre-n {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.s-pre {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+}
+
+.text-c {
+    color: red;
+    font-size: 11px;
+}
+
+.text-b {
+    color: black;
+    font-size: 11px;
+}
+
+.table.table-md th,
+.table.table-md td {
+    color: #666;
+    padding: 7px 15px;
+    font-size: 14px;
+}
+.p-d {
+    font-size: 15px !important;
+}
+
+.p-choice {
+    font-size: 14px;
+}
+
+.btn-choice {
+    height: fit-content;
+    border: 1px solid;
+    border-color: #004181;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #004181;
+}
+
+.btn-choice:active,
+.btn-choice:focus {
+    color: white !important;
+    background-color: #004181 !important;
+    border-color: #004181 !important;
+    box-shadow: none !important;
+}
+
+.active {
+    color: white !important;
+    background-color: #004181 !important;
+    box-shadow: none !important;
+}
+
+.active-number {
+    color: white !important;
+    background-color: #3eac57 !important;
+    border-color: #2ca548 !important;
+    box-shadow: none !important;
+}
+
+.i-peng {
+    display: none;
+}
+
+.a-back,
+.a-back:hover {
+    color: white;
+    font-size: 25px;
+}
+
+.page-item .page-link {
+    font-size: 14px;
+    color: #003c77;
+    border-radius: 3px;
+    margin: 0 3px;
+}
+
+li.page-item.active {
+    background-color: transparent !important;
+}
+
+.page-item.active .page-link {
+    background-color: #003c77;
+    border-color: #003c77;
+}
+
+.page-item.disabled .page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    color: #003c77;
+    opacity: 0.6;
+}
+
+.page-link {
+    border-color: transparent;
+    background-color: #f9fafe;
+    font-weight: 600;
+}
+.page-link:hover {
+    background-color: #003c77;
+    color: #fff;
+    border-color: transparent;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* biodata pendaftar */
+    .p-alert {
+        font-size: 12px !important;
+        text-align: center;
+    }
+
+    .form-group {
+        max-width: 100% !important;
+        display: block !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .btn-bio {
+        margin-right: 0px !important;
+    }
+
+    .btn-save {
+        width: 100%;
+    }
+
+    /* token ujian */
+    .c-token {
+        max-width: 85% !important;
+    }
+
+    /* login ujian */
+    .card-test {
+        max-width: 95% !important;
+    }
+
+    .login-test {
+        display: flex !important;
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    /* list ujian */
+    .col-list {
+        max-width: 95% !important;
+    }
+
+    /* detail ujian */
+    .col-det {
+        display: block !important;
+    }
+
+    .card-desc,
+    .card-det {
+        max-width: 100% !important;
+    }
+
+    /* ujian */
+    .col-soal-ujian {
+        display: block !important;
+    }
+
+    .col-numb {
+        max-width: 75% !important;
+        margin-bottom: 20px !important;
+    }
+
+    .col-ques {
+        max-width: 100% !important;
+    }
+
+    /* pengawas */
+    .col-peng {
+        max-width: 95% !important;
+    }
+}
+
+/* mobile view */
+@media screen and (max-width: 767px) {
+    /* biodata pendaftar */
+    .p-alert {
+        font-size: 10px !important;
+        text-align: center;
+    }
+
+    .s-alert {
+        font-size: 10px !important;
+    }
+
+    .p-main {
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .nav-bio a {
+        margin-top: 8px !important;
+        font-size: 12px !important;
+    }
+
+    .form-group {
+        display: block !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #foto-preview,
+    #sdr-preview,
+    #ket-yatim-preview {
+        width: 155px !important;
+        height: 200px !important;
+        margin-left: 0px !important;
+    }
+
+    #ktp-preview,
+    #kartu-siswa-preview,
+    #kk-preview,
+    #slip-gaji-preview,
+    #shm-preview,
+    #foto-kmr-preview,
+    #kmr-mandi-preview,
+    #listrik-preview,
+    #slip-pbb-preview {
+        width: 200px !important;
+        height: 150px !important;
+        margin-left: 0px !important;
+    }
+
+    .text-b,
+    .text-c {
+        margin-left: 0px !important;
+    }
+
+    .btn-bio {
+        margin-right: 0px !important;
+    }
+
+    /* token ujian */
+    .p-main-title {
+        font-size: 16px;
+    }
+
+    .c-token {
+        overflow-x: scroll;
+    }
+
+    .c-token::-webkit-scrollbar {
+        display: none;
+    }
+
+    .col-token {
+        width: 250px;
+    }
+
+    .text-pre {
+        font-size: 14px;
+    }
+
+    .s-pre-n,
+    .s-pre {
+        font-size: 12px;
+    }
+
+    /* login ujian */
+    .h-login {
+        display: none;
+    }
+
+    .p-login {
+        display: block;
+        font-size: 12px;
+    }
+
+    .login-test {
+        display: flex !important;
+    }
+
+    .btn-save {
+        width: 100%;
+    }
+
+    /* list ujian */
+    .t-ujian {
+        display: none;
+    }
+
+    .table-responsive table {
+        min-width: 800px;
+    }
+
+    /* detail ujian */
+    .col-det {
+        display: block !important;
+    }
+
+    .p-det {
+        width: 100px !important;
+    }
+
+    .btn-det {
+        margin-bottom: 10px !important;
+    }
+
+    /* ujian */
+    .col-soal-ujian {
+        display: block !important;
+    }
+
+    .p-ujian-n {
+        margin-bottom: 10px !important;
+    }
+
+    .soal {
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+    }
+
+    .btn-choice {
+        margin-left: 0px !important;
+    }
+
+    /* detail pengawas */
+    .det-peng {
+        display: none !important;
+    }
+
+    .i-peng {
+        color: white;
+        font-size: 25px;
+        display: block !important;
+        margin-top: 6px !important;
+    }
+
+    .d-pag {
+        margin-top: 15px !important;
+    }
+}

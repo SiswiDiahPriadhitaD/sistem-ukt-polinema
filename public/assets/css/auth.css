@@ -1,0 +1,119 @@
+body {
+    background-image: url("/assets/img/pattern.jpg");
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+.auth-page {
+    backdrop-filter: blur(25px);
+    border: solid 1px #fdfdff;
+    border-radius: 10px;
+}
+
+.img-auth {
+    width: 15%;
+    height: auto;
+}
+
+.p-w {
+    font-size: 36px;
+    font-weight: 800;
+    color: #2d3250;
+    cursor: default;
+}
+
+.s-b {
+    font-size: 16px;
+    font-weight: 800;
+    color: #fba605;
+    cursor: pointer;
+}
+
+.s-b:hover {
+    font-size: 16px;
+    font-weight: 800;
+    color: #fba605;
+    cursor: pointer;
+}
+
+.s-p {
+    font-size: 16px;
+    font-weight: 800;
+    color: #003c77;
+    cursor: default;
+}
+
+.form-auth {
+    border-radius: 20px;
+}
+
+.a-f {
+    color: #003c77;
+}
+
+.btn-auth {
+    border-radius: 20px;
+    background-color: #003c77;
+    border-color: #003c77;
+    box-shadow: none;
+    color: white;
+}
+
+.btn-auth:hover {
+    border-radius: 20px !important;
+    background-color: #003c77 !important;
+    border-color: #003c77 !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.btn-auth :active {
+    border-radius: 20px !important;
+    background-color: #003c77 !important;
+    border-color: #003c77 !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.p-d {
+    color: black;
+}
+
+.a-href {
+    color: #003c77;
+    font-weight: 700;
+}
+
+.p-alert {
+    color: #3eac57;
+}
+
+.p-forgot {
+    color: #2d3250;
+    font-size: 12px;
+}
+
+.p-forgot-2 {
+    color: #2d3250;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        overflow: scroll !important;
+    }
+
+    .auth-page {
+        max-width: 75% !important;
+    }
+}
+
+/* mobile view */
+@media only screen and (max-width: 767px) {
+    body {
+        padding: 100px 20px;
+        overflow-y: scroll !important;
+    }
+}
