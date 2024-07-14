@@ -123,7 +123,7 @@ class FrontEndController extends Controller
 
         if ($mahasiswa) {
             // Update existing mahasiswa
-            $mahasiswa->update(array_merge($validatedData, ['semester_mahasiswa' => $semesterString, 'jenjang_mahasiswa' => $jenjangMahasiswa, 'status_verifikasi' => 'Proses Diverifikasi']));
+            $mahasiswa->update(array_merge($validatedData, ['semester_mahasiswa' => $semesterString, 'jenjang_mahasiswa' => $jenjangMahasiswa, 'status_verifikasi' => 'Proses Diverifikasi', 'id_periode' => $periodeAktif->id]));
         } else {
             // Create new mahasiswa
             Mahasiswa::create(array_merge($validatedData, [

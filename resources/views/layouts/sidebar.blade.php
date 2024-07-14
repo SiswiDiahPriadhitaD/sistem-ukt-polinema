@@ -32,7 +32,8 @@
                     <li><a class="nav-link " href="{{ route('assign.user.index') }}">User To Role</a></li>
                 </ul>
             </li>
-            <li class="nav-item dropdown">
+          
+            {{-- <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-user-tag"></i>
                     <span>Master Table</span></a>
                 <ul class="dropdown-menu">
@@ -55,7 +56,7 @@
                     <li><a class="nav-link" href="{{ route('besaran-pajak-kendaraan-motor.index') }}">Pajak
                             Motor</a></li>
                 </ul>
-            </li>
+            </li> --}}
             <li class="nav-item dropdown">
                 <a href="#" class="nav-link has-dropdown"><i class="fas fa-user-tag"></i>
                     <span>Kesekretariatan</span></a>

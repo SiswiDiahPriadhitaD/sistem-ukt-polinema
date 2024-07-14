@@ -56,10 +56,6 @@ Route::middleware(['auth', 'verified', 'role:mahasiswa'])->group(function () {
 
 
 Route::group(['middleware' => ['auth', 'verified', 'role:super-admin']], function () {
-    Route::get('/profile', function () {
-        return view('auth.profile');
-    })->name('profile.index');
-    Route::put('/profile/{id}', [ProfileController::class, 'update'])->name('profile.update');
 
     Route::prefix('user-management')->group(function () {
         Route::post('/validate-user', [UserController::class, 'validateCreateUser'])->name('validate-create-user');
@@ -117,6 +113,11 @@ Route::group(['middleware' => ['auth', 'verified', 'role:super-admin']], functio
 });
 
 Route::group(['middleware' => ['auth', 'verified', 'role:super-admin|wadir']], function () {
+    Route::get('/profile', function () {
+        return view('auth.profile');
+    })->name('profile.index');
+    Route::put('/profile/{id}', [ProfileController::class, 'update'])->name('profile.update');
+
     Route::prefix('kemahasiswaan')->group(function () {
         Route::resource('mahasiswa', MahasiswaController::class);
         Route::post('mahasiswa/import', [MahasiswaController::class, 'import'])->name('mahasiswa.import');
